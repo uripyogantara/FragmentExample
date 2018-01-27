@@ -2,10 +2,17 @@
 <LinearLayout
     android:background="#27c236"
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-<Button
-    android:id="@+id/btn_one"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="click me"/>
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:inputType="number"
+        android:id="@+id/et_nilai"
+        android:hint="Nilai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="click me"/>
 </LinearLayout>

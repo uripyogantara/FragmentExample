@@ -17,6 +17,7 @@ import id.futnet.fragmentexample.R;
  */
 
 public class TwoFragment extends Fragment implements ActivityToFragment{
+    int nilai=0;
     TextView txtSecond;
     @Nullable
     @Override
@@ -29,6 +30,7 @@ public class TwoFragment extends Fragment implements ActivityToFragment{
 
     @Override
     public void saveData(int value) {
-        txtSecond.setText(String.valueOf(value));
+        nilai+=value;
+        txtSecond.setText(String.valueOf(nilai));
     }
 }
